@@ -6,7 +6,16 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'helvetica-light':['Helvetica-light','serif'],
+        'helvetica-medium':['Helvetica-medium','serif'],
+        'helvetica-roman':['Helvetica-roman','serif'],
+        'helvesti-spike-regular':['Helvesti-spike-regular','serif'],
+        'helvetica-bold-con':['Helvetica-bold-con','serif'],
+        'helvetica-heavy-con':['Helvetica-heavy-con','serif'],
+      }
+    },
   },
   plugins: [],
 }

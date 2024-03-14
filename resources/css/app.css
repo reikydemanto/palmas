@@ -1,3 +1,105 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Helvetica-light';
+    src: url('./fonts/HelveticaNeueLTStd-Lt.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'Helvetica-medium';
+    src: url('./fonts/HelveticaNeueLTStd-Md.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'Helvesti-spike-regular';
+    src: url('./fonts/ABCHelveestiSpikes-Regular.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'Helvetica-roman';
+    src: url('./fonts/HelveticaNeueLTStd-Roman.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'Helvetica-bold-con';
+    src: url('./fonts/HelveticaNeueLTStd-BdCn.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'Helvetica-heavy-con';
+    src: url('./fonts/HelveticaNeueLTStd-HvCn.otf') format('opentype');
+  }
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.swiper-slide .item-1-1 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-2-1 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-3-1 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-1-2 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-2-2 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-3-2 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-1-3 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-2-3 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+.swiper-slide .item-3-3 {
+    transition: all 1s;
+    transition-timing-function: ease;
+}
+
+.button-add-to-cart, .plus {
+    transition: 1s;
+}
+
+.plus{
+    transition-timing-function: ease;
+}
+
+.palmas-variety-pack{
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+.sosmed{
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
